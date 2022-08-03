@@ -1,0 +1,132 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section design start */
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(90, 86, 86);
+}
+
+.content {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* header section design end */
+
+/* middle section design start */
+.middle {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.middle img {
+    width: 45%;
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+
+.about {
+    padding-top: 150px;
+    padding-right:
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+/* middle section design end */
+/* recipies section design start*/
+.recipies-section {
+    margin-bottom: 100px;
+    padding: 0px;
+}
+
+.text-position {
+    text-align: center;
+}
+
+.text-position h2 {
+    font-size: 35px;
+}
+
+.recipes {
+    display: flex;
+    padding: 30px;
+}
+
+.recipe-item img {
+    width: 100%;
+}
+
+.recipe-item {
+    padding-top: 30px;
+    padding-right: 20px;
+    width: 40%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+/* recipies section design end*/
+.social {
+    display: flex;
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 30px 0;
+
+}
+
+.social-site {
+    padding: 0 80px 10px 150px;
+
+}
+
+.social-site h1 {
+    font-size: 50px;
+}
+
+/* footer section design start */
+footer {
+    background-color: rgb(36, 30, 30);
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+
+/* footer section design end */
